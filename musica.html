@@ -3,80 +3,114 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Musica Andaluces</title>
+  <title>Música - Comparsa Andaluces</title>
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
   <!-- CABECERA -->
   <header class="cabecera">
     <h1>Comparsa Andaluces</h1>
+    <p>La fuerza del pasodoble en la calle</p>
   </header>
 
-  <div class="contenido-principal">
-    <!-- MENÚ LATERAL -->
-    <nav class="menu-lateral">
-      <ul>
+  <!-- MENÚ DE NAVEGACIÓN RESPONSIVE -->
+  <div class="nav-container">
+    <nav>
+      <ul class="menu-principal">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="escuadras.html">Escuadras</a></li>
-        <li><a href="eventos.html">Galeria</a></li>
+        <li><a href="eventos.html">Galería</a></li>
         <li><a href="Anuncios.html">Anuncios</a></li>
-        <li><a href="musica.html">Musica</a></li>
+        <li><a href="musica.html" class="activo">Música</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
+  </div>
 
-    <!-- ZONA DE CONTENIDO -->
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="contenido-principal">
     <main class="zona-contenido">
       <h2>Música</h2>
-      <p>Estos pasos dobles son los que representan el alma de la Comparsa Andaluces. <br>
-        Son las piezas que defenderemos con orgullo en cada desfile que hagamos en rambla.</p>
-
-      <div class="musica-cuadricula">
-        <div class="musica-celda musica-celda-centro">
+      <p>Estos pasodobles son los que representan el alma de la Comparsa Andaluces. <br>
+      Son las piezas que defenderemos con orgullo en cada desfile que hagamos en rambla.</p>
+      
+      <div class="musica-dos-columnas">
+        <!-- Celda 1 -->
+        <div class="musica-celda">
+          <h3>Caridad Guardiola</h3>
           <a href="https://www.youtube.com/watch?v=UXlqLLmoXkQ" target="_blank" rel="noopener">
-            <img src="https://img.youtube.com/vi/UXlqLLmoXkQ/hqdefault.jpg" alt="Video 2" />
+            <img src="https://img.youtube.com/vi/UXlqLLmoXkQ/hqdefault.jpg" alt="Caridad Guardiola" />
           </a>
-          <p>Caridad Guardiola</p>
         </div>
 
-        <div class="musica-dos-columnas">
-          <div class="musica-celda">
-            <a href="https://www.youtube.com/watch?v=aXbRohTNyUg" target="_blank" rel="noopener">
-              <img src="https://img.youtube.com/vi/aXbRohTNyUg/hqdefault.jpg" alt="Video 1" />
-            </a>
-            <p>Jose Luis Valero</p>
-          </div>
+        <!-- Celda 2 -->
+        <div class="musica-celda">
+          <h3>Andaluzas</h3>
+          <a href="https://www.youtube.com/watch?v=oTP60zRHghk" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/oTP60zRHghk/hqdefault.jpg" alt="Andaluzas" />
+          </a>
+        </div>
 
-          <div class="musica-celda">
-            <a href="https://www.youtube.com/watch?v=GCRObKmOa2A" target="_blank" rel="noopener">
-              <img src="https://img.youtube.com/vi/GCRObKmOa2A/hqdefault.jpg" alt="Video 3" />
-            </a>
-            <p>Lola Carrión</p>
-          </div>
+        <!-- Celda 3 -->
+        <div class="musica-celda">
+          <h3>Tomás Ferrús</h3>
+          <a href="https://www.youtube.com/watch?v=Pk-T47XRl2Q" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/Pk-T47XRl2Q/hqdefault.jpg" alt="Tomás Ferrús" />
+          </a>
+        </div>
 
-          <div class="musica-celda">
-            <a href="https://www.youtube.com/watch?v=oTP60zRHghk" target="_blank" rel="noopener">
-              <img src="https://img.youtube.com/vi/oTP60zRHghk/hqdefault.jpg" alt="Video 5" />
-            </a>
-            <p>Andaluzas</p>
-          </div>
+        <!-- Celda 4 -->
+        <div class="musica-celda">
+          <h3>Jose Luis Valero</h3>
+          <a href="https://www.youtube.com/watch?v=aXbRohTNyUg" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/aXbRohTNyUg/hqdefault.jpg" alt="Jose Luis Valero" />
+          </a>
+        </div>
 
-          <div class="musica-celda">
-            <a href="https://www.youtube.com/watch?v=Pk-T47XRl2Q" target="_blank" rel="noopener">
-              <img src="https://img.youtube.com/vi/Pk-T47XRl2Q/hqdefault.jpg" alt="Video 4" />
-            </a>
-            <p>Tomás Ferrús</p>
-          </div>
+        <!-- Celda 5 -->
+        <div class="musica-celda">
+          <h3>Loles Carrión</h3>
+          <a href="https://www.youtube.com/watch?v=GCRObKmOa2A" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/GCRObKmOa2A/hqdefault.jpg" alt="Loles Carrión" />
+          </a>
+        </div>
+
+        <!-- Celda 6 -->
+        <div class="musica-celda">
+          <h3>So, Mesura i Batec</h3>
+          <a href="https://www.youtube.com/watch?v=5sixijk2aNs&list=RD5sixijk2aNs&start_radio=1" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/5sixijk2aNs/hqdefault.jpg" alt="So, Mesura i Batec" />
+          </a>
+        </div>
+
+        <!-- Celda 7 -->
+        <div class="musica-celda">
+          <h3>A colau</h3>
+          <a href="https://www.youtube.com/watch?v=1CAe26WxTmw&list=RD1CAe26WxTmw&start_radio=1" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/1CAe26WxTmw/hqdefault.jpg" alt="A colau" />
+          </a>
+        </div>
+
+        <!-- Celda 8 -->
+        <div class="musica-celda">
+          <h3>La Xica</h3>
+          <a href="https://www.youtube.com/watch?v=hOq9wLkMkKo&list=RDhOq9wLkMkKo&start_radio=1" target="_blank" rel="noopener">
+            <img src="https://img.youtube.com/vi/hOq9wLkMkKo/hqdefault.jpg" alt="La Xica" />
+          </a>
         </div>
       </div>
     </main>
-
-
   </div>
 
   <!-- PIE DE PÁGINA -->
   <footer class="pie">
-    <p>Contacto: andalucesmtx@gmail.com | Ig: andalucesmtx | TikTok: Comparsa andaluces Mutxamel | Facebook: Comparsa Andaluces De Mutxamel</p>
+    <p>&copy; 2026 Comparsa Andaluces Mutxamel. Todos los derechos reservados.</p>
+    <div class="pie-enlaces">
+      <a href="mailto:andalucesmtx@gmail.com" target="_blank">✉️ Email</a>
+      <a href="https://instagram.com/andalucesmtx" target="_blank">📸 Instagram</a>
+      <a href="https://tiktok.com/@andalucesmtx" target="_blank">🎵 TikTok</a>
+      <a href="https://facebook.com/" target="_blank">👥 Facebook</a>
+    </div>
   </footer>
 </body>
 </html>

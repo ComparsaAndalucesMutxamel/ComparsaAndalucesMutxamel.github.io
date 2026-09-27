@@ -3,165 +3,128 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Escuadras Andaluces</title>
+  <title>Escuadras — Comparsa Andaluces</title>
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
+
   <!-- CABECERA -->
   <header class="cabecera">
     <h1>Comparsa Andaluces</h1>
+    <p>Nuestras Escuadras</p>
   </header>
 
-  <div class="contenido-principal">
-    <!-- MENÚ LATERAL -->
-    <nav class="menu-lateral">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="escuadras.html">Escuadras</a></li>
-        <li><a href="eventos.html">Galeria</a></li>
-        <li><a href="Anuncios.html">Anuncios</a></li>
-        <li><a href="musica.html">Musica</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+  <!-- MENÚ DE NAVEGACIÓN SUPERIOR TÁCTIL -->
+  <nav class="nav-container">
+    <ul class="menu-principal">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="escuadras.html" class="activo">Escuadras</a></li>
+      <li><a href="eventos.html">Galería</a></li>
+      <li><a href="Anuncios.html">Anuncios</a></li>
+      <li><a href="musica.html">Música</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
 
-    <!-- ZONA DE CONTENIDO -->
-    <main class="zona-contenido">
-      <h2>Escuadras</h2>
-
-      <div class="fila">
+  <!-- CONTENIDO PRINCIPAL -->
+  <main class="contenido-principal">
+    <section class="zona-contenido">
+      <h2>Nuestras Escuadras</h2>
+      
+      <!-- Grid Limpio e Inteligente -->
+      <div class="grid-escuadras">
+        
+        <!-- Escuadra 1 -->
         <div class="escuadra">
           <h3>Escuadra Albaycín</h3>
-          <img src="img/Logo/Albaycin.jpeg" alt="Albaicín" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/Albaycin.jpeg" alt="Albaycín" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Albaycín es un grupo cristiano que lleva con orgullo el nombre del histórico barrio granadino,
-            símbolo de cultura, tradición y belleza. Inspirada en las calles empedradas, los miradores y la
-            esencia andaluza, esta escuadra destaca por su unión, su fuerza y su pasión en cada desfile. 
-            Sus componentes, como una auténtica familia, defienden la hermandad, el respeto y el 
-            compañerismo, haciendo de cada acto una muestra de elegancia, disciplina y amor por las 
-            fiestas. El Albaycín no es solo un nombre, es un sentimiento que se lleva en el corazón y se 
-            muestra con honor en cada paso.
-          </p>
+            Albaycín es un grupo cristiano que lleva con orgullo el nombre del histórico barrio granadino, símbolo de cultura, tradición y belleza. Inspirada en las calles empedradas, los miradores y la esencia andaluza, esta escuadra destaca por su unión, su fuerza y su pasión en cada desfile. Sus componentes, como una auténtica familia, defienden la hermandad, el respeto y el compañerismo, haciendo de cada acto una muestra de elegancia, disciplina y amor por las fiestas. El Albaycín no es solo un nombre, es un sentimiento que se lleva en el corazón y se muestra con honor en cada paso.          </p>
           <span class="leer-mas">Leer más</span>
         </div>
 
+        <!-- Escuadra 2 -->
         <div class="escuadra">
           <h3>Escuadra Jerezanas</h3>
-          <img src="img/Logo/Jerezanas.jpeg" alt="Jerezanas" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/Jerezanas.jpeg" alt="Jerezanas" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Jerezanas es la escuadra fundadora de mujeres que representan a una provincia de Andalucía.
-            Sus integrantes con mucho orgullo e ilusión, vivirán y transmitirán el arte de Jerez y de Andalucía 
-            en nuestras fiestas de moros y cristianos de mutxamel. Están deseando disfrutar de ellas 
-            desfilando en la rambla todas juntas.
-          </p>
+            Jerezanas es la escuadra fundadora de mujeres que representan a una provincia de Andalucía. Sus integrantes con mucho orgullo e ilusión, vivirán y transmitirán el arte de Jerez y de Andalucía en nuestras fiestas de moros y cristianos de mutxamel. Están deseando disfrutar de ellas desfilando en la rambla todas juntas.          </p>
           <span class="leer-mas">Leer más</span>
         </div>
 
+        <!-- Escuadra 3 -->
         <div class="escuadra">
           <h3>Escuadra Sacromonte</h3>
-          <img src="img/Logo/Sacromonte.jpeg" alt="Sacromonte" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/Sacromonte.jpeg" alt="Sacromonte" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Sacromonte es una escuadra mixta que destaca por su elegancia, fuerza y simbolismo. 
-            Inspirada en las raíces históricas del Sacromonte granadino, fusiona tradición, nobleza y 
-            espíritu guerrero. Sus integrantes desfilan con trajes  espectaculares. representando el valor,
-            la fe y la unidad de su grupo. Sacromonte no solo es una escuadra, es un estandarte de orgullo, 
-            historia y pasión cristiana en cada desfile.
-          </p>
+            Sacromonte es una escuadra mixta que destaca por su elegancia, fuerza y simbolismo. Inspirada en las raíces históricas del Sacromonte granadino, fusiona tradición, nobleza y espíritu guerrero. Sus integrantes desfilan con trajes espectaculares. representando el valor, la fe y la unidad de su grupo. Sacromonte no solo es una escuadra, es un estandarte de orgullo, historia y pasión cristiana en cada desfile.          </p>
           <span class="leer-mas">Leer más</span>
         </div>
-      </div>
 
-      <div class="fila">
+        <!-- Escuadra 4 -->
         <div class="escuadra">
           <h3>Escuadra Rocieros</h3>
-          <img src="img/Logo/Rocieros.jpg" alt="Rocieros" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/Rocieros.jpg" alt="Rocieros" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Rocieros es una escuadra mixta de adolescentes de varias edades. 
-            Sus miembros vienen de padres festeros y quieren disfrutar de las fiestas
-          </p>
+            Rocieros es una escuadra mixta de adolescentes de varias edades. Sus miembros vienen de padres festeros y quieren disfrutar de las fiestas          </p>
           <span class="leer-mas">Leer más</span>
         </div>
-        <div class="escuadra">
-          <h3>Escuadra Nazarí</h3>
-          <img src="img/Logo/Nazari.jpeg" alt="Nazarí" class="img-escuadras"/>
-          <p>
-            Fundamos la comparsa andaluces con mucha ilusión y muchas ganas de formar 
-            esta gran família que a día de hoy somos. 
-            Han costado lágrimas y malos ratos conseguirlo pero gracias a la unión y esfuerzo de 
-            todos se ha logrado. 
-            La escuadra Nazarí nace del amor y el respeto por esta tradición que son nuestras 
-            fiestas, ha tenido altibajos pero gracias al apoyo incondicional de nuestro presidente 
-            Javier Sola  y varios componentes más de esta familia que son los Andaluces 
-            se ha logrado algo que para muchos es algo más que una ilusión es algo que llevamos 
-            por dentro es arte, amor,pasión y sobre todo respeto. 
-            Somos como un árbol enraizándose en lo más hondo de nuestros corazones, unidos 
-            por la fiesta y la tradición. 
-            Y por último pero no menos importante esta escuadra recuerda a los festeros que ya 
-            no están con nosotros pero llevamos en el alma.
-          </p>
-          <span class="leer-mas">Leer más</span>
-        </div>
+
+        <!-- Escuadra 5 -->
         <div class="escuadra">
           <h3>Escuadra Jaleo</h3>
-          <img src="img/Logo/Jaleo.jpeg" alt="Jaleo" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/Jaleo.jpeg" alt="Jaleo" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Jaelo es la escuadra de los más pequeños. 
-            Aquí se encuentra un grupo mixto de niños pequeños, que tal y como dice su nombre, dan Jaleo.
-            Ellos no son unicamente los pequeños de la comparsa si no que son nuestro futuro.
-          </p>
-          <span class="leer-mas">Leer más</span>
-        </div>
-      </div>
-
-      <div class="fila">
-        <div class="escuadra">
-          <h3>Escuadra Azahara</h3>
-          <img src="img/Logo/Azahara.jpeg" alt="Rocieros" class="img-escuadras"/>
-          <p>
-              Azahara es una escuadra mixta nacida de la unión de dos escuadras, la Nazarí escuadra fundadora y la Azahara.
-              Esta escuadra desde sus comienzos simboliza unión , pasión y orgullo. 
-              Sus componentes representan a la antigua Córdoba y sus raíces más arraigadas con trajes que llevan con orgullo y dignidad dicha tierra.
-          </p>
+            Jaelo es la escuadra de los más pequeños. Aquí se encuentra un grupo mixto de niños pequeños, que tal y como dice su nombre, dan Jaleo. Ellos no son unicamente los pequeños de la comparsa si no que son nuestro futuro.          </p>
           <span class="leer-mas">Leer más</span>
         </div>
 
+        <!-- Escuadra 6 -->
         <div class="escuadra">
           <h3>Escuadra Aires del Sur</h3>
-          <img src="img/Logo/AiresDelSur.jpeg" alt="Rocieros" class="img-escuadras"/>
+          <div class="img-escuadras-container">
+            <img src="img/Logo/AiresDelSur.jpeg" alt="Aires del Sur" class="img-escuadras" loading="lazy" />
+          </div>
           <p>
-            Aires del Sur es mucho más que una escuadra: es la esencia de Andalucía convertida en arte, elegancia y sentimiento. Nace del orgullo de sus raíces, de la historia que respiran sus calles y de la pasión que recorre cada paso de sus integrantes.
-            Con una identidad marcada por la unión, la fuerza y el compañerismo, esta escuadra representa el alma del sur: cálida, valiente y llena de vida. Sus desfiles no son solo marcha, son espectáculo; cada movimiento transmite carácter, disciplina y emoción, haciendo vibrar a todo el que los contempla.
-            Inspirados en la grandeza de los monumentos andaluces y en la riqueza cultural de su tierra, Aires del Sur combina tradición y elegancia en cada detalle, destacando por su estilo distinguido y su presencia imponente.
-            Es una escuadra que no solo desfila… deja huella. Porque donde pisa Aires del Sur, se siente Andalucía.    
-          </p>
+            Aires del Sur es mucho más que una escuadra: es la esencia de Andalucía convertida en arte, elegancia y sentimiento. Nace del orgullo de sus raíces, de la historia que respiran sus calles y de la pasión que recorre cada paso de sus integrantes. Con una identidad marcada por la unión, la fuerza y el compañerismo, esta escuadra representa el alma del sur: cálida, valiente y llena de vida. Sus desfiles no son solo marcha, son espectáculo; cada movimiento transmite carácter, disciplina y emoción, haciendo vibrar a todo el que los contempla. Inspirados en la grandeza de los monumentos andaluces y en la riqueza cultural de su tierra, Aires del Sur combina tradición y elegancia en cada detalle, destacando por su estilo distinguido y su presencia imponente. Es una escuadra que no solo desfila… deja huella. Porque donde pisa Aires del Sur, se siente Andalucía.          </p>
           <span class="leer-mas">Leer más</span>
-        
         </div>
 
-        <div class="escuadra vacia">
-          
-        </div>
-        
       </div>
-
-    </main>
-  </div>
+    </section>
+  </main>
 
   <!-- PIE DE PÁGINA -->
   <footer class="pie">
-    <p>Contacto: andalucesmtx@gmail.com | Ig: andalucesmtx | TikTok: Comparsa andaluces Mutxamel | Facebook: Comparsa Andaluces De Mutxamel</p>
+    <p>&copy; 2026 Comparsa Andaluces Mutxamel. Todos los derechos reservados.</p>
+    <div class="pie-enlaces">
+      <a href="mailto:andalucesmtx@gmail.com" target="_blank">✉️ Email</a>
+      <a href="https://instagram.com/andalucesmtx" target="_blank">📸 Instagram</a>
+      <a href="https://tiktok.com/@andalucesmtx" target="_blank">🎵 TikTok</a>
+      <a href="https://facebook.com/" target="_blank">👥 Facebook</a>
+    </div>
   </footer>
 
   <!-- SCRIPT para funcionalidad "Leer más" -->
   <script>
-  document.querySelectorAll('.leer-mas').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      const contenedor = btn.previousElementSibling; // el <p> anterior
-      contenedor.classList.toggle('expandido');
-      btn.textContent = contenedor.classList.contains('expandido') ? 'Leer menos' : 'Leer más';
+    document.querySelectorAll('.leer-mas').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        const paragraph = btn.previousElementSibling; // El <p> anterior
+        paragraph.classList.toggle('expandido');
+        btn.textContent = paragraph.classList.contains('expandido') ? 'Leer menos' : 'Leer más';
+      });
     });
-  });
-</script>
+  </script>
 
 </body>
 </html>

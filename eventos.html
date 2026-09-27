@@ -12,78 +12,98 @@
     <h1>Comparsa Andaluces</h1>
   </header>
 
-  <div class="contenido-principal">
-    <!-- MENÚ LATERAL -->
-    <nav class="menu-lateral">
-      <ul>
-        <li><a href="index.html">Inicio</a></li>
-        <li><a href="escuadras.html">Escuadras</a></li>
-        <li><a href="eventos.html">Galeria</a></li>
-        <li><a href="Anuncios.html">Anuncios</a></li>
-        <li><a href="musica.html">Musica</a></li>
-        <li><a href="contacto.html">Contacto</a></li>
-      </ul>
-    </nav>
+  <!-- MENÚ DE NAVEGACIÓN (Consistente con tu CSS anterior) -->
+  <nav class="nav-container">
+    <ul class="menu-principal">
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="escuadras.html">Escuadras</a></li>
+      <li><a href="eventos.html" class="activo">Galeria</a></li>
+      <li><a href="Anuncios.html">Anuncios</a></li>
+      <li><a href="musica.html">Musica</a></li>
+      <li><a href="contacto.html">Contacto</a></li>
+    </ul>
+  </nav>
 
+  <div class="contenido-principal">
     <!-- ZONA DE CONTENIDO -->
     <main class="zona-contenido">
-        <h2>Galeria</h2>
-        <p>Descubre la galería de eventos en los que ha participado nuestra comparsa. Tanto los grandes eventos como los más pequeños
-          incluyendo la barraca privada y los preparativos para las fiestas
-        </p>
+      <h2>Galeria</h2>
+      <p class="texto-introductorio">
+        Descubre la galería de eventos en los que ha participado nuestra comparsa. Tanto los grandes eventos como los más pequeños, incluyendo la barraca privada y los preparativos para las fiestas.
+      </p>
 
-        <div class="eventos-fila">
+      <!-- Nueva rejilla unificada que soluciona las columnas -->
+      <div class="grid-eventos">
 
-            <div class="evento-columna">
-                <h3>Moros y Cristianos 2025</h3>
-                <img src="img/MorosYCristianos2025/FotoFamilyNoche.jpg" alt="Festival de Primavera" class="img-evento" />
-                <a href="MorosYCristianos2025.html" class="mostrar-mas">Mostrar más</a>
-            </div>
-
-            <div class="evento-columna">
-                <h3>Cenas 2025</h3>
-                <img src="img/Cenas2025/FotoFamily.jpg" alt="Festival de Primavera" class="img-evento" />
-                <a href="Cenas2025.html" class="mostrar-mas">Mostrar más</a>
-            </div>
-
-            <div class="evento-columna">
-              <h3>Actos intermedios y preparativos 2025</h3>
-              <img src="img/Intermedio2025/PresiAbanderadoEntregaCargos43.jpg" alt="Concurso de Comparsas" class="img-evento" />
-              <a href="Intermedio2025.html" class="mostrar-mas">Mostrar más</a>
-            </div>
-
-            
-            
-        </div>
-        <div class="eventos-fila">
-
-          <div class="evento-columna">
-              <h3>Benamaurel</h3>
-              <img src="img/Benamaurel/FotoFamily.jpg" alt="Concurso de Comparsas" class="img-evento" />
-              <a href="Benamaurel.html" class="mostrar-mas">Mostrar más</a>
-            </div>
-
-          <div class="evento-columna">
-              <h3>Mig any 2025</h3>
-              <img src="img/MigAny2025/FotoFamily.jpg" alt="Desfile de Carnaval" class="img-evento" />
-              <a href="MigAny2025.html" class="mostrar-mas">Mostrar más</a>
-            </div>
-
-
-          <div class="evento-columna">
-              <h3>Barraca privada</h3>
-              <img src="img/Privada/FotoFamily.jpg" alt="Festival de Primavera" class="img-evento" />
-              <a href="BarracaPrivada.html" class="mostrar-mas">Mostrar más</a>
+        <div class="evento-tarjeta">
+          <h3>Cenas 2026</h3>
+          <div class="img-evento-container">
+            <img src="img/Cenas2026/AlbaycinCenandoEscuadra.jpeg" alt="Actos intermedios y preparativos 2026" class="img-evento" loading="lazy" />
           </div>
-          
-          <!--<div class="evento-columna" style="visibility: hidden;"></div> -->
+          <a href="Cenas2026.html" class="mostrar-mas">Mostrar más</a>
         </div>
+
+        <div class="evento-tarjeta">
+          <h3>Actos intermedios 2026</h3>
+          <div class="img-evento-container">
+            <img src="img/Intermedio2026/RedobledoGrupal.jpeg" alt="Actos intermedios y preparativos 2026" class="img-evento" loading="lazy" />
+          </div>
+          <a href="Intermedio2026.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+        <div class="evento-tarjeta">
+          <h3>Moros y Cristianos 2025</h3>
+          <div class="img-evento-container">
+            <img src="img/MorosYCristianos2025/FotoFamilyNoche.jpg" alt="Moros y Cristianos 2025" class="img-evento" loading="lazy" />
+          </div>
+          <a href="MorosYCristianos2025.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+        <div class="evento-tarjeta">
+          <h3>Cenas 2025</h3>
+          <div class="img-evento-container">
+            <img src="img/Cenas2025/FotoFamily.jpg" alt="Cenas 2025" class="img-evento" loading="lazy" />
+          </div>
+          <a href="Cenas2025.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+        <div class="evento-tarjeta">
+          <h3>Actos intermedios 2025</h3>
+          <div class="img-evento-container">
+            <img src="img/Intermedio2025/PresiAbanderadoEntregaCargos43.jpg" alt="Actos intermedios 2025" class="img-evento" loading="lazy" />
+          </div>
+          <a href="Intermedio2025.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+        <div class="evento-tarjeta">
+          <h3>Mig any 2025</h3>
+          <div class="img-evento-container">
+            <img src="img/MigAny2025/FotoFamily.jpg" alt="Mig any 2025" class="img-evento" loading="lazy" />
+          </div>
+          <a href="MigAny2025.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+        <div class="evento-tarjeta">
+          <h3>Barraca privada</h3>
+          <div class="img-evento-container">
+            <img src="img/Privada/FotoFamily.jpg" alt="Barraca privada" class="img-evento" loading="lazy" />
+          </div>
+          <a href="BarracaPrivada.html" class="mostrar-mas">Mostrar más</a>
+        </div>
+
+      </div>
     </main>
   </div>
 
   <!-- PIE DE PÁGINA -->
   <footer class="pie">
-    <p>Contacto: andalucesmtx@gmail.com | Ig: andalucesmtx | TikTok: Comparsa andaluces Mutxamel | Facebook: Comparsa Andaluces De Mutxamel</p>
+    <p>&copy; 2026 Comparsa Andaluces Mutxamel. Todos los derechos reservados.</p>
+    <div class="pie-enlaces">
+      <a href="mailto:andalucesmtx@gmail.com" target="_blank">✉️ Email</a>
+      <a href="https://instagram.com/andalucesmtx" target="_blank">📸 Instagram</a>
+      <a href="https://tiktok.com/@andalucesmtx" target="_blank">🎵 TikTok</a>
+      <a href="https://facebook.com/" target="_blank">👥 Facebook</a>
+    </div>
   </footer>
 </body>
 </html>

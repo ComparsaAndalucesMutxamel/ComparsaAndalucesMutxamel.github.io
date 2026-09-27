@@ -3,207 +3,236 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Anuncios Andaluces</title>
+  <title>Anuncios - Comparsa Andaluces</title>
   <link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
   <!-- CABECERA -->
   <header class="cabecera">
     <h1>Comparsa Andaluces</h1>
+    <p>Información y Novedades de la comparsa</p>
   </header>
 
-  <div class="contenido-principal">
-    <!-- MENÚ LATERAL -->
-    <nav class="menu-lateral">
-      <ul>
+  <!-- MENÚ DE NAVEGACIÓN RESPONSIVE -->
+  <div class="nav-container">
+    <nav>
+      <ul class="menu-principal">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="escuadras.html">Escuadras</a></li>
-        <li><a href="eventos.html">Galeria</a></li>
-        <li><a href="Anuncios.html">Anuncios</a></li>
-        <li><a href="musica.html">Musica</a></li>
+        <li><a href="eventos.html">Galería</a></li>
+        <li><a href="Anuncios.html" class="activo">Anuncios</a></li>
+        <li><a href="musica.html">Música</a></li>
         <li><a href="contacto.html">Contacto</a></li>
       </ul>
     </nav>
+  </div>
 
-    <!-- ZONA DE CONTENIDO -->
+  <!-- CONTENIDO PRINCIPAL -->
+  <div class="contenido-principal">
     <main class="zona-contenido">
 
+      <!-- SECCIÓN: ANUNCIOS DESTACADOS -->
+      <section class="anuncios-destacados">
         <h2>Anuncios Importantes</h2>
-      
-      <div class="eventos-fila">
-
-            <div class="evento-columna">
-                  <h3>Comunicado oficial</h3>
-                  <img src="img/Carteles/ComunicadoPresi.jpeg" alt="Festival de Primavera" class="img-evento" />
+        <div class="grid-anuncios">
+          <!-- Primer Comunicado (Carga prioritaria por estar arriba) -->
+          <div class="anuncio-tarjeta">
+            <h3>Horarios 2026</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/horarios2026.jpeg" alt="Comunicado del Presidente" decoding="async" />
             </div>
-            
-
-            <div class="evento-columna">
-                  <h3>Comunicado oficial</h3>
-                  <img src="img/Carteles/ComunicadoOficial.jpeg" alt="Festival de Primavera" class="img-evento" />
           </div>
+      </section>
 
-          <div class="evento-columna" style="visibility: hidden;"></div>
-
-      </div>
-
+      <!-- SECCIÓN: ARCHIVO DE ANUNCIOS (Carga Perezosa / Lazy Load activado) -->
+      <section>
         <h2>Más Anuncios y Carteles</h2>
+        <div class="grid-anuncios">
 
-        <div class="eventos-fila">
-
-            <div class="evento-columna">
-                <h3>Horarios Mig Any</h3>
-                <img src="img/Carteles/HorariosMigAny2026.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-
-          <div class="evento-columna">
-                <h3>Precios Mig any</h3>
-                <img src="img/Carteles/PreciosMigAny2026.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            <div class="evento-columna">
-                <h3>Horarios Paellas</h3>
-                <img src="img/Carteles/HorarioPaellas2026.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Encargadas de Paellas</h3>
-                <img src="img/Carteles/JerezanasPaellas2026.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            
-
-            
-
-        </div>
-
-        
-
-        <div class="eventos-fila">
-
-            <div class="evento-columna">
-                <h3>Cenas de Escuadra</h3>
-                <img src="img/Carteles/DirectivaFelices.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Cenas de Escuadra</h3>
-                <img src="img/Carteles/PresiFelices.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            <div class="evento-columna">
-                <h3>Cenas de Escuadra</h3>
-                <img src="img/Carteles/HorarioEscuadas.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Dia del cancer</h3>
-                <img src="img/Carteles/cancer.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          
-
-            
-
-            
-
-
-        </div>
-
-        <div class="eventos-fila">
-
-            <div class="evento-columna">
-                <h3>Atento a las Redes Sociales</h3>
-                <img src="img/Carteles/AntentoRedesSociales.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Fechas del Mig Any</h3>
-                <img src="img/Carteles/CartelFechas2025.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            <div class="evento-columna">
-                <h3>Se acerca el Mig Any</h3>
-                <img src="img/Carteles/CartelPartucular.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Programa de Actos</h3>
-                <img src="img/Carteles/ProgramaDeActos.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          
-
-            
-
-            
-
-          
-
-
-        </div>
-
-        
-
-        <div class="eventos-fila">
-
-            <div class="evento-columna">
-                <h3>Programa D'Actes</h3>
-                <img src="img/Carteles/ProgramaDactes.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Cartel oficial del Mig Any </h3>
-                <img src="img/Carteles/CartelOficial.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            <div class="evento-columna">
-                <h3>Felices Fiestas</h3>
-                <img src="img/Carteles/PresiFelices.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Fechas Mig Any</h3>
-                <img src="img/Carteles/CartelFechasMigAny.jpeg" alt="Festival de Primavera" class="img-evento" />
+            <div class="anuncio-tarjeta">
+              <h3>Horarios 2026</h3>
+              <div class="img-anuncio-container">
+                <img src="img/Carteles/horarios2026.jpeg" alt="Comunicado del Presidente" decoding="async" />
+              </div>
             </div>
 
-          
+            <div class="anuncio-tarjeta">
+              <h3>Cenas 2026</h3>
+              <div class="img-anuncio-container">
+                <img src="img/Carteles/Cenas2026.jpeg" alt="Comunicado del Presidente" decoding="async" />
+              </div>
+            </div>
 
-          
+            <div class="anuncio-tarjeta">
+              <h3>Comunicado oficial</h3>
+              <div class="img-anuncio-container">
+                <img src="img/Carteles/Andaluces.jpeg" alt="Comunicado del Presidente" decoding="async" />
+              </div>
+            </div>
 
+            <div class="anuncio-tarjeta">
+                  <h3>Comunicado oficial</h3>
+                  <div class="img-anuncio-container">
+                  <img src="img/Carteles/ComunicadoPresi.jpeg" alt="Comunicado del Presidente" decoding="async" />
+                  </div>
+            </div>
+            
+            <!-- Segundo Comunicado (Carga prioritaria) -->
+            <div class="anuncio-tarjeta">
+                  <h3>Comunicado oficial</h3>
+                  <div class="img-anuncio-container">
+                  <img src="img/Carteles/ComunicadoOficial.jpeg" alt="Comunicado Oficial de la Comparsa" decoding="async" />
+                  </div>
+            </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Horarios Mig Any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/HorariosMigAny2026.jpeg" alt="Horarios Mig Any" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Precios Mig any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/PreciosMigAny2026.jpeg" alt="Precios Mig Any" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Horarios Paellas</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/HorarioPaellas2026.jpeg" alt="Horarios Paellas" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Encargadas de Paellas</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/JerezanasPaellas2026.jpeg" alt="Encargadas de Paellas" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Cenas de Escuadra</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/DirectivaFelices.jpeg" alt="Cenas de Escuadra Directiva" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Cenas de Escuadra</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/PresiFelices.jpeg" alt="Cenas de Escuadra Presidente" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Cenas de Escuadra</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/HorarioEscuadas.jpeg" alt="Horario Cenas de Escuadas" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Día del Cáncer</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/cancer.jpeg" alt="Conmemoración Día del Cáncer" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Atento a las Redes</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/AntentoRedesSociales.jpeg" alt="Atento a las Redes Sociales" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Fechas del Mig Any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CartelFechas2025.jpeg" alt="Fechas Mig Any" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Se acerca el Mig Any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CartelPartucular.jpeg" alt="Se acerca el Mig Any" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Programa de Actos</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/ProgramaDeActos.jpeg" alt="Programa de Actos Completo" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Programa D'Actes</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/ProgramaDactes.jpeg" alt="Programa d'Actes en Valencià" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Cartel oficial Mig Any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CartelOficial.jpeg" alt="Cartel oficial del Mig Any" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Felices Fiestas</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/PresiFelices.jpeg" alt="Felices Fiestas Comparsa" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Fechas Mig Any</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CartelFechasMigAny.jpeg" alt="Fechas Mig Any Oficiales" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Nueva ubicación</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CartelProntoMigAny.jpeg" alt="Nueva ubicación de la Comparsa" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Ravalet</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/Ravalet2025.jpg" alt="Cartel del Ravalet" loading="lazy" decoding="async" />
+            </div>
+          </div>
+
+          <div class="anuncio-tarjeta">
+            <h3>Cenas Comparsa</h3>
+            <div class="img-anuncio-container">
+              <img src="img/Carteles/CenaComparsa2025.jpg" alt="Cenas de Comparsa" loading="lazy" decoding="async" />
+            </div>
+          </div>
 
         </div>
-
-        <div class="eventos-fila">
-
-            <div class="evento-columna">
-                <h3>Nueva ubicación</h3>
-                <img src="img/Carteles/CartelProntoMigAny.jpeg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna">
-                <h3>Ravalet </h3>
-                <img src="img/Carteles/Ravalet2025.jpg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-            <div class="evento-columna">
-                <h3>Cenas Comparsa</h3>
-                <img src="img/Carteles/CenaComparsa2025.jpg" alt="Festival de Primavera" class="img-evento" />
-          </div>
-
-          <div class="evento-columna" style="visibility: hidden;"></div>
-
-          <!-- <div class="evento-columna" style="visibility: hidden;"></div> -->
-
-        </div>
+      </section>
 
     </main>
   </div>
 
   <!-- PIE DE PÁGINA -->
   <footer class="pie">
-    <p>Contacto: andalucesmtx@gmail.com | Ig: andalucesmtx | TikTok: Comparsa andaluces Mutxamel | Facebook: Comparsa Andaluces De Mutxamel</p>
+    <p>&copy; 2026 Comparsa Andaluces Mutxamel. Todos los derechos reservados.</p>
+    <div class="pie-enlaces">
+      <a href="mailto:andalucesmtx@gmail.com" target="_blank">✉️ Email</a>
+      <a href="https://instagram.com/andalucesmtx" target="_blank">📸 Instagram</a>
+      <a href="https://tiktok.com/@andalucesmtx" target="_blank">🎵 TikTok</a>
+      <a href="https://facebook.com/" target="_blank">👥 Facebook</a>
+    </div>
   </footer>
 </body>
 </html>
